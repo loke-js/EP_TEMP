@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&family=Arimo&family=Bakbak+One&family=Bebas+Neue&family=Montserrat&family=Open+Sans&family=Oswald&family=Poppins:wght@100;400;800&family=Roboto+Condensed&family=Roboto:wght@500&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    
+  }
+  
+.nav{
+    
+  padding: 15px;
+  font-family: "Roboto", sans-serif;
+   font-style: normal;
+   color: #585858;
+  
+}
+
+.a{
+      /* width: 50%; */
+    /* color: white; */
+    text-decoration: none;
+  }
+  
+  .menu{
+    list-style-type: none;
+  }
+  
+  .logo {
+    font-size: 20px;
+    padding: 7.5px 10px 7.5px 0;
+  }
+  
+  .item{
+    padding: 1px;
+    font-weight: 500;
+    color: #575757;
+  }
+  
+  .item.button {
+    padding: 4px 5px;
+  }
+  
+  .item:not(.button) a:hover,
+  .item a:hover::after {
+    color:rgb(251, 147, 51);
+  }
+  .links-item a:hover::after {
+    color:rgb(251, 147, 51);
+  }
+  
+  
+  .menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  /* .menu li.subitem a {
+    display: flex;
+  } */
+  
+
+  .toggle {
+    display: none;
+  }
+
+  .logo{
+   font-size: 5vh;
+   font-weight: 700;
+   
+  }
+  .orange__gradient {
+    /* color:rgb(251, 147, 51) */
+    background: rgba(251, 147, 51, 0.6);
+    filter: blur(350px);
+  }
+ 
